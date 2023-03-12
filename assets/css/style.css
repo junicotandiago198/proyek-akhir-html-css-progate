@@ -1,0 +1,64 @@
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* CSS Section Header */
+.header {
+  margin-bottom: 100px;
+  border-radius: 0 0 15px 15px;
+  background-image: url(/assets/img/Coffe\ Header.png);
+  background-size: cover;
+}
+
+.header-background {
+  border-radius: 0 0 15px 15px;
+  background: rgba(20, 54, 66, 0.7);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  padding-top: 39px;
+}
+
+.menu-navbar a {
+  color: white;
+}
+
+.menu-navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.menu-navbar li {
+  font-size: 30px;
+  margin: 54px 50px 0px 0px;
+}
+
+.header-text {
+  padding-top: 120px;
+  padding-bottom: 240px;
+  text-align: center;
+}
+
+.header-title {
+  color: white;
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.header-description {
+  color: white;
+  font-weight: 400;
+  font-size: 36px;
+}
+/* End Header Styling CSS */
