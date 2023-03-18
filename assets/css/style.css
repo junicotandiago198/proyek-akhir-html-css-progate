@@ -12,7 +12,7 @@ a {
 .header {
   margin-bottom: 100px;
   border-radius: 0 0 15px 15px;
-  background-image: url(/assets/img/Coffe\ Header.png);
+  background-image: url(../img/coffe-header.png);
   background-size: cover;
 }
 
