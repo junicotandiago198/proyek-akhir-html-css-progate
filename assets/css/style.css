@@ -251,3 +251,65 @@ a {
   color: white;
   font-size: 18px;
 }
+
+/* Styling CSS detail product page */
+.product-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-title {
+  color: #0f8b8d;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.product-short-description {
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+.product-price {
+  font-size: 50px;
+  color: #0f8b8d;
+  font-weight: 800;
+}
+
+.detail-product {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.product-description {
+  word-wrap: break-word;
+  width: 950px;
+  margin: auto;
+}
+
+.product-description h1 {
+  width: 380px;
+  font-size: 48px;
+  color: #0f8b8d;
+  border-bottom: 3px #ec9a29 solid;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.product-description p {
+  font-size: 24px;
+  margin-bottom: 45px;
+}
+
+.product-button {
+  text-align: center;
+  font-size: 24px;
+  width: 335px;
+  padding: 20px 20px 22px 20px;
+  background-color: #a8201a;
+  color: white;
+  border-radius: 40px;
+}
+
+/* Styling CSS Page Findus */
