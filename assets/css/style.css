@@ -313,3 +313,36 @@ a {
 }
 
 /* Styling CSS Page Findus */
+.location {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.find-us h1 {
+  font-size: 30px;
+  color: #143642;
+}
+
+.find-us p {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.address {
+  border: 1px #d2d2d2 solid;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px 0px #0000001a;
+  width: 474px;
+  padding: 20px 45px 72px 45px;
+  margin-top: 20px;
+  margin-right: 112px;
+}
+
+.address p {
+  font-size: 20px;
+}
