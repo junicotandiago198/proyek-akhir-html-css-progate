@@ -415,3 +415,20 @@ a {
   background-color: #a8201a;
   color: #f9fbfe;
 }
+
+@media (min-width: 1258px) {
+  .wrapper #right {
+    margin-bottom: 400px;
+  }
+  .header-v2 {
+    padding-bottom: 39px;
+  }
+  .menu-background {
+    transition: all 0.5s;
+  }
+  .menu-background:hover {
+    height: 140px;
+    width: 140px;
+    transform: scale(1.6);
+  }
+}
