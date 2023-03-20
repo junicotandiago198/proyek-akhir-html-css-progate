@@ -45,6 +45,16 @@ a {
   margin: 54px 50px 0px 0px;
 }
 
+/* active css */
+.menu-navbar a.active {
+  color: #fff;
+  border-bottom: 5px solid yellow;
+}
+
+/* .menu-navbar li.active a {
+  color: #fff;
+} */
+
 .header-text {
   padding-top: 120px;
   padding-bottom: 240px;
