@@ -346,3 +346,72 @@ a {
 .address p {
   font-size: 20px;
 }
+
+/* Styling page help */
+.help h1 {
+  font-size: 48px;
+  color: #0f8b8d;
+  margin-bottom: 50px;
+}
+
+.help {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 926px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  padding: 50px 98px 50px 98px;
+  border-radius: 15px;
+  border: 2px solid #d2d2d2;
+}
+
+.form div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit-button {
+  width: 216px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submit-button input:hover {
+  cursor: pointer;
+}
+
+.form p {
+  font-size: 30px;
+}
+
+.form input {
+  width: 493px;
+  height: 71px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  border: 2px solid #d2d2d2;
+}
+
+::placeholder {
+  font-size: 24px;
+  padding-left: 46px;
+}
+
+.form textarea {
+  width: 493px;
+  height: 200px;
+  border-radius: 15px;
+  border: 2px solid #d2d2d2;
+  margin-bottom: 50px;
+}
+
+.submit-button input {
+  border: 0px;
+  border-radius: 40px;
+  font-size: 24px;
+  background-color: #a8201a;
+  color: #f9fbfe;
+}
