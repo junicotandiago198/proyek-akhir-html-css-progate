@@ -207,6 +207,36 @@ a {
   margin-top: 30px;
 }
 
+/* CSS SIDEBAR MENU PAGE */
+.menu-product {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.menu-product ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-product li {
+  border-left: 5px solid orange;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.menu-product li a {
+  color: orange;
+  text-decoration: none;
+}
+
+.menu-product li:hover {
+  background-color: #f1f1f1;
+}
+
 /* CSS MENU PAGE */
 .header-v2 {
   background-color: #0f8b8d;
