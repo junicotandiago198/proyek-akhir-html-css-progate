@@ -46,3 +46,22 @@ navLinks.forEach((link) => {
     link.classList.add('active');
   }
 });
+
+// Mendapatkan nilai dari parameter "q" di URL
+const urlParams = new URLSearchParams(window.location.search);
+const q = urlParams.get('q');
+
+// Menentukan produk yang akan ditampilkan berdasarkan nilai "q"
+if (q === 'coffee') {
+  console.log('Product coffee ditemukan.');
+  // ...
+} else if (q === 'non-coffee') {
+  console.log('Product non-coffee ditemukan.');
+  // ...
+} else if (q === 'tea') {
+  console.log('Product tea ditemukan.');
+  // ...
+} else {
+  // Menampilkan pesan kesalahan jika nilai "q" tidak sesuai
+  console.error('Product tidak ditemukan.');
+}
